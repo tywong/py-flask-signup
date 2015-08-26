@@ -32,7 +32,7 @@ class AppTestCase(unittest.TestCase):
 
     def test_load_config(self):
         """ Test that we can load our config properly """
-        self.assertTrue(1)
+        self.assertTrue(0)
 
     def test_get_test(self):
         """ Test hitting /test and that we get a correct HTTP response """
